@@ -27,3 +27,11 @@ gulp.task('copyImages', function(){
     return gulp.src('./src/img/**/*')
         .pipe(gulp.dest('./dist/img/'))
 });
+
+
+gulp.task('copyImages2', function(){
+    return gulp.src('./src/img/**/*')
+        .pipe(gulp.dest('./dist/img/'))
+});
+
+gulp.task('buld')
